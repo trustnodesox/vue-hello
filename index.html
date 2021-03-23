@@ -9,6 +9,11 @@
       <h1>{{ message }}</h1>
       <input v-model="message">
       <img :src="immagine" alt="">
+      <div style="display:flex; justify-content: flex-start;">
+        <button v-on:click="counter += 1">Ciao x</button>
+        <p>{{ counter }}</p>
+
+      </div>
     </div>
 
 
